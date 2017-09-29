@@ -25,14 +25,17 @@ This paper describes a pair of packages that employ Java's graphical capabilitie
 This project will tackle the problems in teaching compilers/compiler construction in University courses.
 It will firstly identify the the main topics taught in compiler design then focus
 on the most common topics student find hard to grasp.
-To do so it will:
+
+The project is an ecosystem of tools that will enable students to learn about the compilation
+process through visualisation and the teachers to customise, upload content and prepare assessments.
+
+## Methods
+
+In order to achieve the project statement points the study will be defined as:
 
 - Research the content of multiple compiler courses
 - Build a questionnaire for UoB CS students that have taken the compiler construction course
 - Build a prototype and a post-questionnaire to assess the below mentioned features.
-
-The project is an ecosystem of tools that will enable students to learn about the compilation
-process through visualisation and the teachers to customise, upload content and prepare assessments.
 
 The ecosystem will include (this may vary throughout the development of the system)
 
@@ -49,8 +52,6 @@ The ecosystem will include (this may vary throughout the development of the syst
     * Upload exercises on specific compilation phases (i.e. defining the stubs)
     * Ability to set custom visualisation (through the above mentioned API)
     * (Probably) add modules (e.g. advanced sections of the base compiler)
-
-## Methods
 
 The cctutor system will be developed in Java including 5 main/top level packages (prefixed by co):
 
