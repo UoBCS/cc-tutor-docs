@@ -74,9 +74,11 @@ The cctutor system will be developed in Java including 5 main/top level packages
 
 - cctutor.minijava : the sized-down compiler for educational purposes
 - cctutor.hooks: the event driven interface between the compiler and the visualisation framework
-- cctutor.viz.default: the default visualisation package for the compilation process
+- cctutor.viz.def: the default visualisation package for the compilation process
 - cctutor.student: the student portal (uses JavaFX as the graphics library)
 - cctutor.teacher: the teacher portal (uses JavaFX as the graphics library)
+
+The compilation process is the one defined in "Modern Compiler Implementation in Java" (introduction, figure 1.1).
 
 ## Project schedule
 
@@ -89,3 +91,8 @@ The cctutor system will be developed in Java including 5 main/top level packages
 ## Artifacts
 
 **To be completed.**
+
+## Notes
+
+- Do not develop the whole compilation process
+- Use LLVM
