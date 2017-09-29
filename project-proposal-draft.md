@@ -96,3 +96,4 @@ The compilation process is the one defined in "Modern Compiler Implementation in
 
 - Do not develop the whole compilation process
 - Use LLVM
+- Use dragon book
