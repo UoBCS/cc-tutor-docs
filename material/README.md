@@ -5,6 +5,7 @@
 - Modern Compiler Implementation in Java
 - Introduction to Compiler Construction in a Java World
 - Compiler Construction
+- Dragon book
 
 ## Papers & articles
 

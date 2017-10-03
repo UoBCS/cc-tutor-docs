@@ -20,7 +20,14 @@ understand the compiler operations and imagine the single steps.
 
 > This paper describes a pair of packages that employ Java's graphical capabilities so that a program may be visualized at various stages of the compilation process. We argue that these tools are effective in helping students understand the transformation process from source program to machine code. We summarize our experience in using these tools in the context of a project-based compiler course. We also discuss other features of Java that make it well-suited for a student compiler project.
 
-**To be completed.**
+Compiler construction is a well-researched field, and every computer science student should have at least a good
+overview on the topic. The traditional method in teaching compiler construction is that of following
+a textbook and for each section incrementally build the compiler.
+However many aspects of compilation, such as parsing, abstract machines, and many more may need an additional
+method of learning which bridges the gap between theoretical knowledge and practical implementation.
+
+This project consists of an extensible platform for teaching and learning compiler construction
+using a subset of Java. One of its features is for a program to be visualized at various stages of the compilation process.
 
 ## Project statement
 
@@ -35,7 +42,8 @@ The project therefore is an ecosystem of tools that will enable students to lear
 process through visualisation and live interaction and the teachers to customise, upload content and prepare assessments.
 
 The hypothesis of the research study is that compiler construction modules, where students learn how to write a
-compiler and how to generate one using various tools, approach the problem in a traditional setting.
+compiler and how to generate one using various tools, approach the problem in a traditional setting and
+a visualisation approach can improve the understanding of generally difficult to grasp concepts.
 This means that there isn't a bridge between the high level concepts that the students learn from
 textbooks and the hands-on-practice course. The project will therefore fill the gap
 by providing the conceptual understanding of compiler construction through the visualisation
@@ -46,23 +54,27 @@ and interaction with the compilation process (among other learning styles, descr
 > The method to be followed in accomplishing the project statement, i.e., proposed algorithms, procedures,
 controls, sample sizes, experiments, and expected results, etc. 
 
+### Research study
+
 In order to test the research study hypothesis the pre-development phase is defined as follows:
 
 - Research the content of multiple compiler courses:
     * American and European Universitites compiler construction modules syllabi
-- Build a questionnaire for UoB CS students that have taken the compiler construction course:
-    * Sample size of at least 30 students
+- Build a targetted questionnaire for UoB CS students that have taken the compiler construction course
 - Build a prototype and a post-questionnaire to assess the features of the system
 
-The project's ecosystem (CC Tutor) will include (this may vary throughout the development of the system)
+### Development
+
+The project's ecosystem (CC Tutor) will include (this may vary throughout the development of the system):
 
 - A sized-down compiler for educational purposes called MiniJava
-- An API for hooking into the compilation process so that developers can implement their custom visualisations
+- An API for hooking into the compilation process so that developers can implement their custom visualisations (extension point)
 - A student portal with the following features:
     * General information about the compilation process
     * Editor to input code (one class)
     * Visualisation of the compilation process with the possibility to choose which layer to perform and which to skip
     * In-depth visualisation for each compiling phase
+    * Real-time interaction with the visual components
     * Exercises that require the student to fill in some stubs in the compilation process
     * Full compiler availability to tweak (advanced )
 - A lecturer portal with the following features:
@@ -75,22 +87,42 @@ The cctutor system will be developed in Java including 5 main/top level packages
 - cctutor.minijava : the sized-down compiler for educational purposes
 - cctutor.hooks: the event driven interface between the compiler and the visualisation framework
 - cctutor.viz.def: the default visualisation package for the compilation process
+- cctutor.base: the base portal functionality for both the student and teacher user spaces
 - cctutor.student: the student portal (uses JavaFX as the graphics library)
 - cctutor.teacher: the teacher portal (uses JavaFX as the graphics library)
 
 The compilation process is the one defined in "Modern Compiler Implementation in Java" (introduction, figure 1.1).
+The project will at least include the frontend.
+
+The development will follow a User-Centred Design for the interface and visualisations.
+Since the latter are an important part of the platform it's important to follow UCD:
+
+1. Specify context of use
+2. Specify requirements
+3. Produce design solutions (alternatives, through lo-fi prototypes)
+4. Evaluate designs (mostly through expert evaluation)
+
+All non-code documents will be placed in the project repository under `docs`.
 
 ## Project schedule
 
-**To be completed.**
+### Term 1
+
+- **Week 3**
+    * Complete paper and articles readings
+    * Start literature review
+    * Start sketching of the system
+
+### Term 2
+
 
 ## Bibliography
 
-**To be completed.**
+See [reading material](material/).
 
 ## Artifacts
 
-**To be completed.**
+> A description of any artifacts beside the write-up for the project or thesis, i.e., code, user's guide, etc. 
 
 ## Notes
 
