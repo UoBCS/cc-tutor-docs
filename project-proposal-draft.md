@@ -104,6 +104,10 @@ Since the latter are an important part of the platform it's important to follow 
 
 All non-code documents will be placed in the project repository under `docs`.
 
+If time permits the project will include a toolkit for a declarative approach in compiler construction
+where the user specifies in a declarative manner each phases and the platform
+will choose the appropriate tools to accomplish the request.
+
 ## Project schedule
 
 ### Term 1
@@ -112,6 +116,10 @@ All non-code documents will be placed in the project repository under `docs`.
     * Complete paper and articles readings
     * Start literature review
     * Start sketching of the system
+- **Week 4**
+- **Week 5**
+- **Week 6**
+- **Week 7**
 
 ### Term 2
 

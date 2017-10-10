@@ -16,3 +16,6 @@
 ## Online resources
 
 - JavaFX
+- http://hackingoff.com/compilers
+- http://catalog.compilertools.net/kits.html
+- http://eli-project.sourceforge.net/
