@@ -23,11 +23,12 @@ understand the compiler operations and imagine the single steps.
 Compiler construction is a well-researched field, and every computer science student should have at least a good
 overview on the topic. The traditional method in teaching compiler construction is that of following
 a textbook and for each section incrementally build the compiler.
-However many aspects of compilation, such as parsing, abstract machines, and many more may need an additional
+However many aspects of compilation, such as lexing, parsing, abstract machines, automata and many more may need an additional
 method of learning which bridges the gap between theoretical knowledge and practical implementation.
 
 This project consists of an extensible platform for teaching and learning compiler construction
-using a subset of Java. One of its features is for a program to be visualized at various stages of the compilation process.
+using a subset of Java. The main feature of the platform is for a program to be visualized at various stages of the compilation process.
+The visualisation techniques will be analysed and developed according to input from early prototypes.
 
 ## Project statement
 
@@ -110,19 +111,57 @@ will choose the appropriate tools to accomplish the request.
 
 ## Project schedule
 
+The following project schedule is tentative and may change according to progress.
+
 ### Term 1
+
+The output of the first term will be:
+
+- Scientific article
+    * Prototype of the system
+    * Specification of the system
+    * Literature review
+    * Data collected from compiler construction modules
+- Minijava compiler frontend
 
 - **Week 3**
     * Complete paper and articles readings
     * Start literature review
-    * Start sketching of the system
+    * Start sketch of the system
+    * Consider user requirements
 - **Week 4**
+    * Determine a suitable journal, or conference, format for your article with supervisor
+    * Background reading
+    * Start literature review
+    * Collect data about compiler construction modules
+    * Finish lexer with interface to the hooking package
+    * Consider user requirements with collected data
+    * Start working on the overall specification of the software
 - **Week 5**
+    * Background reading
+    * Analysis of collected data and prepare visualisations
+    * Work on literature review
+    * Work on prototype
+    * Work on parser
+    * Work on specification
 - **Week 6**
+    * Work on prototype
+    * Work on parser
+    * Finish literature review
+    * Produce overall specification of the software
+    * Start article writing
 - **Week 7**
-
-### Term 2
-
+    * Finish prototype of the overall software
+    * Finish parser with interface to the hooking package
+    * Work on article composition
+- **Week 8**
+    * Work on semantic analysis
+    * Specification refinements
+    * Finish article with all gathered material
+- **Week 9**
+    * Work on semantic analysis
+- **Week 10**
+    * Finish semantic analysis (this ends the frontend of the compiler)
 
 ## Bibliography
 
