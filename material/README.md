@@ -12,6 +12,8 @@
 - An educational tool for teaching compiler construction
 - Learning compiler construction
 - Using visualization tools to teach compiler design
+- Software Visualization of LR Parsing and Synthesized Attr. Evaluation
+- A Collection of Tools for Making Automata Theory and Formal Languages Come Alive
 
 ## Online resources
 
@@ -19,3 +21,4 @@
 - http://hackingoff.com/compilers
 - http://catalog.compilertools.net/kits.html
 - http://eli-project.sourceforge.net/
+- Theories of visualisation: http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualization-Vis11.pdf
