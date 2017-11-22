@@ -1,3 +1,10 @@
+http://fellinlovewithdata.com/reflections/data-visualization-semantics
+
+
+# Algorithm Visualization: The State of the Field - notes
+
+
+
 # An educational tool for teaching compiler construction - notes
 
 As [...] states, "in the compiler construction course, students learn how to write a

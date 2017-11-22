@@ -137,7 +137,7 @@ LA-REGEX-NFA-10: Enable the user to save the history for future visualizations (
 
 ### Abstract Visualization Concept
 
-
+<DONE>
 
 ## Nondeterministic Finite Automata (NFA) to Deterministic Finite Automata (DFA)
 
@@ -169,6 +169,8 @@ LA-NFA-DFA-7: Enable the user to check the history of the algorithm execution an
 LA-NFA-DFA-8: Enable the user to save the history for future visualizations (this is suitable for teachers).
 
 ### Abstract Visualization Concept
+
+
 
 ## Deterministic Finite Automata (DFA) Minimization
 
@@ -283,7 +285,7 @@ LL1-7: Save environment (grammar and user input).
 
 ## LR Walkthrough
 
-## LR(1) Walkthrough
+## LR(0) Walkthrough
 
 ## Semantic Analysis
 
@@ -318,20 +320,6 @@ CCA-2: Enable the user to save the state of the assistant.
 CCA-3: Enable the user to build some parts of the frontend.
 
 ## Inspection and Visualization Frameworks
-
-## System Feature 1
-
-4.1.1   Description and Priority
-<Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).>
-4.1.2   Stimulus/Response Sequences
-<List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.>
-4.1.3   Functional Requirements
-<Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
-
-<Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.>
-
-REQ-1:  
-REQ-2: 
 
 # Other Nonfunctional Requirements
 
